@@ -50,10 +50,7 @@
 
 ### 2. ดาวน์โหลดไฟล์ .exe ที่คอมไพล์แล้ว (Pre-compiled .exe)
 
-**หมายเหตุ :** หากโปรเจกต์นี้มีไฟล์ `.exe` ที่คอมไพล์สำเร็จแล้วให้ดาวน์โหลด คุณจะพบไฟล์นั้นได้ที่ส่วน **"Releases"** บนหน้า GitHub ของโปรเจกต์นี้ (เช่น: `https://github.com/yourusername/your-repo-name/releases`)
-
-* เข้าไปที่หน้า Releases ของโปรเจกต์นี้
-* ดาวน์โหลดไฟล์ `.exe` ล่าสุดที่ระบุไว้
+* ดาวน์โหลดไฟล์ `.exe` ล่าสุด >> [[https://github.com/microtronic-thailand/Text-to-Speech_Converter/releases/](https://github.com/microtronic-thailand/Text-to-Speech_Converter/releases/)]
 * เมื่อดาวน์โหลดเสร็จสิ้น คุณสามารถดับเบิลคลิกที่ไฟล์ `.exe` นั้นเพื่อรันโปรแกรมได้ทันที โดยไม่จำเป็นต้องติดตั้ง Python หรือไลบรารีใดๆ เพิ่มเติม
 
 ## คู่มือการใช้งานโปรแกรม (User Manual)
