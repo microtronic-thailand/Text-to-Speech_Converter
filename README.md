@@ -102,6 +102,10 @@
 
     ```bash
     pyinstaller --noconsole --onefile --windowed text_to_speech_converter.py
+
+    # ในบางเครื่องคุณอาจต้องใช้คำสั่งนี้แทน
+
+    python -m PyInstaller --noconsole --onefile --windowed text_to_speech_converter.py
     ```
 
     * `--noconsole` หรือ `--windowed`: สำหรับแอปพลิเคชัน GUI จะไม่แสดงหน้าต่าง Command Prompt สีดำ
