@@ -33,19 +33,19 @@
 เหมาะสำหรับนักพัฒนาหรือผู้ที่ต้องการรันโปรแกรมจากโค้ดโดยตรง
 
 1.  **โคลนโปรเจกต์ (Clone the Repository) :**
-    เปิด Command Prompt (Windows) หรือ Terminal (macOS/Linux) แล้วรันคำสั่งต่อไปนี้:
+    เปิด Command Prompt (Windows) หรือ Terminal (macOS/Linux) แล้วรันคำสั่งต่อไปนี้ :
 
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/microtronic-thailand/Text-to-Speech_Converter.git](https://github.com/microtronic-thailand/Text-to-Speech_Converter.git)
+    cd Text-to-Speech_Converter
     ```
-    *(อย่าลืมเปลี่ยน `yourusername/your-repo-name` เป็นชื่อผู้ใช้ GitHub และชื่อ Repository ของคุณ)*
 
 2.  **ติดตั้งไลบรารี Python ที่จำเป็น :**
-    หลังจาก `cd` เข้าไปในโฟลเดอร์โปรเจกต์แล้ว ให้รันคำสั่งต่อไปนี้เพื่อติดตั้งไลบรารี:
+    หลังจาก `cd` เข้าไปในโฟลเดอร์โปรเจกต์แล้ว ให้รันคำสั่งต่อไปนี้เพื่อติดตั้งไลบรารี :
 
     ```bash
     pip install gTTS customtkinter
+    python text_to_speech_converter.py
     ```
 
 ### 2. ดาวน์โหลดไฟล์ .exe ที่คอมไพล์แล้ว (Pre-compiled .exe)
