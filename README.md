@@ -3,38 +3,37 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](https://github.com/yourusername/your-repo-name)
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzE2N0ZBNCIgZD0iTTEwLjE3NCAyMi4wNDlMMTAuMTcgNy4wMTEgMy41MiA3LjAxMSAwLjI2IDEwLjI3MiAwLjI2IDE5LjM3NCA1LjUxMiAyMi42MDUgMTYuMTA5IDIyLjYwNSAxNi4xMDkgMjIuMDQ5eiIvPjxwYXRoIGZpbGw9IiM2QUQ1MTQiIGQ9Ik03Ljg5MiAwTDEuMDc4IDYuODg0IDExLjY5MiA2Ljg4NCAxMS42OTIgMC4wMDcgNy44OTIgMHoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjMuNzQxIDMuNzgyTDE5LjI3IDguMTI5IDE5LjI3IDE2Ljk3NCAyMy43MjggMjEuNjQgMjMuNzI4IDYuNDI2eiIvPjxwYXRoIGZpbGw9IiMwMDM3NUYiIGQ9Ik0xNy41MjcgNy4xNTVMMTcuNTI3IDYuNjE4IDIwLjUyNyA2LjYxOCAyMC41MjcgMTYuMDI5IDE3LjUyNyAxNi4wMjl6IiIvPjwvc3ZnPg==)
 ![gTTS](https://img.shields.io/badge/TTS-gTTS-blue.svg?logo=google&logoColor=white)
 
 โปรเจกต์นี้คือโปรแกรมแปลงข้อความเป็นไฟล์เสียง MP3 ที่ใช้งานง่าย พัฒนาด้วย Python และ CustomTkinter เพื่อให้มีส่วนต่อประสานผู้ใช้ (GUI) ที่ทันสมัยและใช้งานสะดวก เหมาะสำหรับผู้ที่ต้องการแปลงข้อความจากไฟล์หรือข้อความที่พิมพ์โดยตรงให้เป็นเสียงได้อย่างรวดเร็ว
 
 ## คุณสมบัติ (Features)
 
-* **แปลงข้อความเป็นเสียง:** แปลงข้อความที่พิมพ์ในช่อง Textbox หรืออ่านจากไฟล์ `.txt` ให้เป็นไฟล์เสียง `.mp3`
-* **เลือกไฟล์ข้อความ:** มีปุ่มสำหรับเลือกไฟล์ `.txt` ที่ต้องการแปลง
-* **กำหนดตำแหน่งบันทึกไฟล์เสียง:** สามารถเลือกตำแหน่งและชื่อไฟล์ `.mp3` ที่จะบันทึกผลลัพธ์
-* **แจ้งเตือนและเปิดโฟลเดอร์:** เมื่อแปลงเสร็จสิ้น จะมี Pop-up ถามว่าต้องการเปิดโฟลเดอร์ที่เก็บไฟล์เสียงหรือไม่
-* **เมนูคลิกขวาใน Textbox:** รองรับการ Cut, Copy, Paste, และ Select All ในช่องกรอกข้อความ
-* **ส่วน "เกี่ยวกับเรา":** แสดงข้อมูลลิขสิทธิ์และเวอร์ชันของโปรแกรม
-* **GUI ที่ทันสมัย:** สร้างด้วย CustomTkinter เพื่อรูปลักษณ์ที่สวยงามและใช้งานง่าย
-* **Standalone Executable:** สามารถคอมไพล์เป็นไฟล์ `.exe` เพื่อให้รันได้บนคอมพิวเตอร์ที่ไม่มี Python ติดตั้ง
+* **แปลงข้อความเป็นเสียง :** แปลงข้อความที่พิมพ์ในช่อง Textbox หรืออ่านจากไฟล์ `.txt` ให้เป็นไฟล์เสียง `.mp3`
+* **เลือกไฟล์ข้อความ :** มีปุ่มสำหรับเลือกไฟล์ `.txt` ที่ต้องการแปลง
+* **กำหนดตำแหน่งบันทึกไฟล์เสียง :** สามารถเลือกตำแหน่งและชื่อไฟล์ `.mp3` ที่จะบันทึกผลลัพธ์
+* **แจ้งเตือนและเปิดโฟลเดอร์ :** เมื่อแปลงเสร็จสิ้น จะมี Pop-up ถามว่าต้องการเปิดโฟลเดอร์ที่เก็บไฟล์เสียงหรือไม่
+* **เมนูคลิกขวาใน Textbox :** รองรับการ Cut, Copy, Paste, และ Select All ในช่องกรอกข้อความ
+* **ส่วน "เกี่ยวกับเรา" :** แสดงข้อมูลลิขสิทธิ์และเวอร์ชันของโปรแกรม
+* **GUI ที่ทันสมัย :** สร้างด้วย CustomTkinter เพื่อรูปลักษณ์ที่สวยงามและใช้งานง่าย
+* **Standalone Executable :** สามารถคอมไพล์เป็นไฟล์ `.exe` เพื่อให้รันได้บนคอมพิวเตอร์ที่ไม่มี Python ติดตั้ง
 
 ## ความต้องการของระบบ (Prerequisites)
 
-* **Python 3.x:** แนะนำ Python 3.8 หรือใหม่กว่า
-* **pip:** ตัวจัดการแพ็คเกจสำหรับ Python (มักจะมาพร้อมกับการติดตั้ง Python)
-* **การเชื่อมต่ออินเทอร์เน็ต:** จำเป็นในขณะแปลงข้อความเป็นเสียง เนื่องจาก `gTTS` ต้องเชื่อมต่อกับบริการ Text-to-Speech ของ Google
+* **Python 3.x :** แนะนำ Python 3.8 หรือใหม่กว่า
+* **pip :** ตัวจัดการแพ็คเกจสำหรับ Python (มักจะมาพร้อมกับการติดตั้ง Python)
+* **การเชื่อมต่ออินเทอร์เน็ต :** จำเป็นในขณะแปลงข้อความเป็นเสียง เนื่องจาก `gTTS` ต้องเชื่อมต่อกับบริการ Text-to-Speech ของ Google
 
 ## การติดตั้ง (Installation)
 
-1.  **โคลนโปรเจกต์ (Clone the Repository):**
+1.  **โคลนโปรเจกต์ (Clone the Repository) :**
     ```bash
     git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
     cd your-repo-name
     ```
     *(อย่าลืมเปลี่ยน `yourusername/your-repo-name` เป็นชื่อผู้ใช้ GitHub และชื่อ Repository ของคุณ)*
 
-2.  **ติดตั้งไลบรารี Python ที่จำเป็น:**
+2.  **ติดตั้งไลบรารี Python ที่จำเป็น :**
     เปิด Command Prompt (Windows) หรือ Terminal (macOS/Linux) แล้วรันคำสั่งต่อไปนี้:
     ```bash
     pip install gTTS customtkinter
